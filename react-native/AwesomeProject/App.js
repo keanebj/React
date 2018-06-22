@@ -102,7 +102,8 @@ export default class App extends Component<Props> {
     return  fetch('https://facebook.github.io/react-native/movies.json')
     .then((response) => {
       // alert(JSON.stringify(response))
-      alert(response)
+      // alert(response)
+      alert("nihao")
       response.json()
     })
 
